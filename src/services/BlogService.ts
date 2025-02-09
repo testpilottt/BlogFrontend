@@ -58,10 +58,11 @@ export class BlogService {
 
 
     getHeader() {
+        //Setting Authorization token for dev purposes
         return {
             headers: {
                 'Content-Type': 'application/json',
-                'Authorization': 'Basic dXNlcmV4YW1wbGU6cGFzc3dvcmRleGFtcGxl'
+                'Authorization': 'Basic ZXhhbXBsZXVzZXJuYW1lOmV4YW1wbGVwYXNzd29yZA=='
             }
         }
     }
